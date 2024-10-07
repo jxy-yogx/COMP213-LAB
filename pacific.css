@@ -36,3 +36,18 @@ footer{
 ul{
     list-style-image:url(images/marker.gif);
 }
+table{
+    border: 2px solid; border-color: #3399CC; border-collapse: collapse;
+}
+td, th{
+    padding:0.5 em; border:2px solid; border-color: #3399CC
+}
+td{
+    text-align:center;
+}
+td.text{
+    text-align: left;
+}
+tr:nth-of-type(odd){
+    background-color: #F5FAFC;
+}
